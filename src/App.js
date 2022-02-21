@@ -2,6 +2,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import FileSearch from "./components/FileSearch";
 import FIleList from "./components/FIleList";
+import BottomBtn from "./components/BottomBtn";
+import {faPlus, faFileImport} from "@fortawesome/free-solid-svg-icons";
 import defaultFiles from "./utils/defaultFiles";
 
 function App() {
@@ -28,6 +30,22 @@ function App() {
                             console.log(newValue)
                         }}
                     />
+                    <div className="row no-gutters">
+                        <div className="col">
+                            <BottomBtn
+                                text="新建"
+                                colorClass="btn-primary"
+                                icon={faPlus}
+                            />
+                        </div>
+                        <div className="col">
+                            <BottomBtn
+                                text="导入"
+                                colorClass="btn-success"
+                                icon={faFileImport}
+                            />
+                        </div>
+                    </div>
                 </div>
                 <div className="col-9 right-panel">
                     222
