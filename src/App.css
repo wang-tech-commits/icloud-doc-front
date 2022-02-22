@@ -7,3 +7,11 @@
 .c-link {
     cursor: pointer;
 }
+
+.button-100x {
+    width: 100%;
+}
+
+.button-margin {
+    margin: 20px 0;
+}

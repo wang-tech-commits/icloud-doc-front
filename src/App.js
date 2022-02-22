@@ -11,6 +11,24 @@ function App() {
         <div className="App container-fluid">
             <div className="row">
                 <div className="col-3 left-panel">
+                    <div className="button-margin">
+                        <div className="row no-gutters">
+                            <div className="col">
+                                <BottomBtn
+                                    text="新建"
+                                    colorClass="btn-primary"
+                                    icon={faPlus}
+                                />
+                            </div>
+                            <div className="col">
+                                <BottomBtn
+                                    text="导入"
+                                    colorClass="btn-success"
+                                    icon={faFileImport}
+                                />
+                            </div>
+                        </div>
+                    </div>
                     <FileSearch
                         title='我的云文档'
                         onFileSearch={(e) => {
@@ -30,25 +48,8 @@ function App() {
                             console.log(newValue)
                         }}
                     />
-                    <div className="row no-gutters">
-                        <div className="col">
-                            <BottomBtn
-                                text="新建"
-                                colorClass="btn-primary"
-                                icon={faPlus}
-                            />
-                        </div>
-                        <div className="col">
-                            <BottomBtn
-                                text="导入"
-                                colorClass="btn-success"
-                                icon={faFileImport}
-                            />
-                        </div>
-                    </div>
                 </div>
                 <div className="col-9 right-panel">
-                    222
                 </div>
             </div>
         </div>

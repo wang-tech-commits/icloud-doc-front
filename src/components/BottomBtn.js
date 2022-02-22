@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 const BottomBtn = ({text, colorClass, icon, onBtnClick}) => (
-    <button type="button" className={`btn btn-block no-border ${colorClass}`} onClick={onBtnClick}>
-        <FontAwesomeIcon className="mr-2" size="lg" title={text} icon={icon}/>{text}
+    <button type="button" className={`btn btn-block no-border ${colorClass} button-100x`} onClick={onBtnClick}>
+        <FontAwesomeIcon className="mr-2" size="lg" title={text} icon={icon}/>&nbsp;{text}
     </button>
 )
 
