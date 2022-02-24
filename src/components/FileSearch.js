@@ -32,7 +32,7 @@ const FileSearch = ({title, onFileSearch}) => {
         <div className="alert alert-primary d-flex justify-content-between align-items-center">
             {!inputActive &&
             <>
-                <span>{title}</span>
+                <span className="padding-size">{title}</span>
                 <button
                     type="button"
                     className="icon-button"

@@ -15,3 +15,17 @@
 .button-margin {
     margin: 20px 0;
 }
+
+.m-lr-0 {
+    border-radius: .25rem !important;
+}
+
+.m-lr-0 li {
+    margin: 0;
+}
+
+.padding-size {
+    line-height: 1.5;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+}

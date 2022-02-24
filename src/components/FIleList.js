@@ -25,7 +25,7 @@ const FIleList = ({files, onFileClick, onSaveEdit, onFileDelete}) => {
         }
     })
     return (
-        <ul className="list-group list-group-flush file-list">
+        <ul className="list-group list-group-flush file-list m-lr-0">
             {
                 files.map(file => (
                     <li
@@ -34,7 +34,7 @@ const FIleList = ({files, onFileClick, onSaveEdit, onFileDelete}) => {
                     >
                         {file.id !== editStatus &&
                         <>
-                            <span className="col-2">
+                            <span className="col-2 padding-size">
                                 <FontAwesomeIcon size="lg" icon={faMarkdown}/>
                             </span>
                             <span className="col c-link" onClick={() => {
