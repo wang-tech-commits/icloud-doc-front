@@ -10,9 +10,9 @@ function App() {
     return (
         <div className="App container-fluid">
             <div className="row">
-                <div className="col-1 col-xxl-2 left-panel">
+                <div className="col-1 col-xl-2 left-panel">
                 </div>
-                <div className="col-3 col-xxl-3 left-panel">
+                <div className="col-3 col-xl-3 left-panel">
                     <div className="button-margin">
                         <div className="row no-gutters">
                             <div className="col">
@@ -51,7 +51,7 @@ function App() {
                         }}
                     />
                 </div>
-                <div className="col-8 col-xxl-7 right-panel">
+                <div className="col-8 col-xl-7 right-panel">
                 </div>
             </div>
         </div>
